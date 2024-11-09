@@ -1,12 +1,9 @@
-/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e6f2ff;
 }
-
-/* Header styling */
 
 .header {
     display: flex;
@@ -37,8 +34,6 @@ body {
     background-color: #f0f0f0; 
 }
 
-/* Estilo para los botones de log in y sign in */
-
 .login-buttons button {
     margin-left: 5px;
     background-color: white; 
@@ -50,15 +45,10 @@ body {
     transition: background-color 0.3s; 
 }
 
-/* Efecto hover para los botones */
 .login-buttons button:hover {
     background-color: #f0f0f0; 
 }
 
-
-
-/* Main content styling */
-/* Cuerpo */
 .main-content {
     background: linear-gradient(to left, #7F9AB9 , #394553); 
     padding: 20px;
@@ -69,7 +59,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-/* Estilo para la sección de la frase */
+
 .intro-subtitle {
     background-color: white; 
     border: 2px solid #ccc; 
@@ -78,7 +68,7 @@ body {
     margin: 20px auto; 
     max-width: 600px; 
 }
-/* Estilo para los botones de contribuir y solicitar donación */
+
 .intro-buttons button {
     background-color: white; 
     color: black; 
@@ -99,8 +89,6 @@ body {
     max-width: 300px;
 }
 
-/* Estilo para la sección "NOSOTROS" */
-
 .about {
     background-color: white; 
     padding: 0; 
@@ -109,14 +97,13 @@ body {
     margin-top: 20px; 
 }
 
-/* Estilo para el título "NOSOTROS" */
 .about h3 {
     background-color: white; 
     padding: 10px; 
     margin: 0; 
 }
 
-/* Estilo para la descripción dentro del cuadro */
+
 .about-description {
     background: linear-gradient(to right, #394553, #98E7FE); 
     padding: 20px; 
@@ -124,7 +111,6 @@ body {
     color: white; 
 }
 
-/* Estilo para el texto de la descripción */
 .about-description p {
     margin: 0; 
 }
@@ -134,24 +120,21 @@ body {
     margin-top: 20px;
 }
 
-/* Estilo para la sección "NUESTRA APP" */
 .app {
     background-color: white; 
     padding: 0; 
     border: 2px solid #000; 
     border-radius: 5px; 
     margin-top: 20px; 
-    overflow: hidden; /* Asegura que el contenido no se desborde */
+    overflow: hidden;
 }
 
-/* Estilo para el título "NUESTRA APP" */
 .app h3 {
     background-color: white; 
     padding: 10px; 
     margin: 0; 
 }
 
-/* Estilo para la descripción dentro del cuadro */
 .app-description {
     background: linear-gradient(to right, #394553, #98E7FE); 
     padding: 20px; 
@@ -159,18 +142,16 @@ body {
     color: white; 
 }
 
-/* Estilo para el contenido de la app, incluyendo imágenes */
 .app-content {
-    padding: 0; /* Elimina el padding para que el fondo se alinee */
+    padding: 0;
 }
 
-/* Estilo para las imágenes de la app */
 .app-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to right, #394553, #98E7FE); /* Color de fondo de la sección de imágenes */
-    padding: 10px; /* Padding para el área de imágenes */
+    background: linear-gradient(to right, #394553, #98E7FE); 
+    padding: 10px;
 }
 
 .app-image {
@@ -185,8 +166,6 @@ body {
     border-radius: 10px;
 }
 
-
-/* Contact form styling */
 .contact form {
     display: flex;
     flex-direction: column;
@@ -201,10 +180,8 @@ body {
     border: 1px solid #ccc;
 }
 
-/* Footer styling */
-
 .footer {
-    background: linear-gradient(to right, #98E7FE, #394553); /* Degradado celeste a gris */
+    background: linear-gradient(to right, #98E7FE, #394553);
     color: white;
     display: flex;
     justify-content: space-around;
