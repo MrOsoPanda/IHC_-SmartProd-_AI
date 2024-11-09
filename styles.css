@@ -135,33 +135,42 @@ body {
 }
 
 /* Estilo para la sección "NUESTRA APP" */
-.app-container {
-    border: 2px solid #394553; 
-    border-radius: 10px; 
-    padding: 10px; 
-    margin-bottom: 20px; 
+.app {
+    background-color: white; 
+    padding: 0; 
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    overflow: hidden; /* Asegura que el contenido no se desborde */
 }
 
-.app-container h3 {
-    background-color: #ffffff; 
+/* Estilo para el título "NUESTRA APP" */
+.app h3 {
+    background-color: white; 
     padding: 10px; 
     margin: 0; 
 }
 
-.app-container p {
+/* Estilo para la descripción dentro del cuadro */
+.app-description {
     background: linear-gradient(to right, #394553, #98E7FE); 
+    padding: 20px; 
+    border-radius: 0 0 5px 5px; 
     color: white; 
-    padding: 10px;
-    margin: 0; 
 }
 
+/* Estilo para el contenido de la app, incluyendo imágenes */
+.app-content {
+    padding: 0; /* Elimina el padding para que el fondo se alinee */
+}
 
-/* Sección de imágenes de la app */
+/* Estilo para las imágenes de la app */
 .app-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    background: linear-gradient(to right, #394553, #98E7FE); /* Color de fondo de la sección de imágenes */
+    padding: 10px; /* Padding para el área de imágenes */
 }
 
 .app-image {
@@ -175,6 +184,7 @@ body {
     max-width: 250px;
     border-radius: 10px;
 }
+
 
 /* Contact form styling */
 .contact form {
@@ -192,13 +202,15 @@ body {
 }
 
 /* Footer styling */
+
 .footer {
-    background-color: #1a73e8;
+    background: linear-gradient(to right, #98E7FE, #394553); /* Degradado celeste a gris */
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
+
 
 .footer-section ul {
     list-style-type: none;
