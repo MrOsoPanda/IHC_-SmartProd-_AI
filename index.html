@@ -7,86 +7,106 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- 
-    <header class="header">
-        <div class="logo">
-            <img src="images/logo2.png" alt="SmartProd AI Logo">
-            <h1>SMARTPROD AI</h1>
-        </div>
-        <nav class="nav-bar">
-            <a href="#">HOME</a>
-            <a href="#">SERVICIOS</a>
-            <a href="#">NOSOTROS</a>
-            <a href="#">CONTACTO</a>
-        </nav>
-        <div class="login-buttons">
-            <button>LOG IN</button>
-            <button>SIGN IN</button>
-        </div>
-    </header>
+    <!-- Barra superior -->
+    <div class="top-bar"></div>
 
-    <main class="main-content">
-        <section class="intro">
+    <!-- Logo y título en la esquina izquierda -->
+    <div class="logo-container">
+        <img src="images/imagen_2024-09-04_211904956-removebg-preview.png" alt="Logo SmartProd AI" class="mini-logo">
+        <span class="logo-text">SMARTPROD AI</span>
+    </div>
+    <!-- Contenedor principal -->
+    <div class="main-content">
+        <!-- Sección motivacional en el lado izquierdo -->
+        <div class="motivation-section">
             <h2>"Transforma tu Gestión de Inventarios con Inteligencia Artificial: Automatiza, Optimiza y Crece"</h2>
-            <p class="intro-subtitle">"Impulsa el futuro de tu negocio con inteligencia y eficiencia: Simplifica hoy, crece mañana."</p>
-            <div class="intro-content">
-                <img src="images/inventario.jpg" alt="Automatización" class="intro-image">
-                <div class="intro-buttons">
-                    <button>Contribuir</button>
-                    <button>Solicitar donación</button>
+            <p class="subtitle">"Impulsa el futuro de tu negocio con inteligencia y eficiencia: Simplifica hoy, crece mañana."</p>
+            <div class="motivation-content">
+                <img src="images/inventario.jpg" alt="Imagen de Inventario" class="motivation-image">
+                <div class="donation-buttons">
+                    <button>Donar</button>
+                    <button>Publicidad</button>
                 </div>
             </div>
-        </section>
-<section class="about">
-    <h3>NOSOTROS</h3>
-    <div class="about-description">
-        <p>En SmartProd AI, estamos comprometidos con la transformación digital de la gestión de inventarios. Nuestra misión es proporcionar soluciones innovadoras basadas en inteligencia artificial que permitan a las empresas de cualquier tamaño optimizar sus operaciones, reducir costos y mejorar la toma de decisiones en tiempo real. Creemos en el poder de la automatización para liberar tiempo y recursos, permitiendo que nuestros clientes se enfoquen en lo que más importa: el crecimiento de su negocio.
-        
-        </p>
-        <p>Nuestra visión es liderar la evolución  hacia una gestión de inventarios más inteligente, donde la tecnología se convierta en un aliado estratégico para maximizar el potencial de tu negocio. Únete a la revolución digital y experimenta cómo la inteligencia artificial  puede transformar tu cadena de suministro y operaciones diarias. </p>
-    </div>
-</section>
+        </div>
 
-<section class="app">
-    <h3>NUESTRA APP</h3>
-    <div class="app-description">
-        <p>SmartProd AI es una plataforma avanzada de gestión de inventarios impulsada por inteligencia artificial, diseñada para optimizar y automatizar los procesos clave de inventario en pequeñas y medianas empresas. Con herramientas intuitivas para el monitoreo en tiempo real, reabastecimiento automático y análisis predictivo, SmartProd AI ayuda a reducir errores, mejorar la eficiencia y tomar decisiones estratégicas basadas en datos. Ideal para emprendedores y gerentes que buscan soluciones innovadoras para mejorar la competitividad de sus negocios.</p>
-    </div>
-    <div class="app-content">
-        <div class="app-images">
-            <div class="app-image">
-                <img src="images/logo.jpg" alt="Logo de la App" class="large-image">
+        <!-- Bloque en el lado derecho -->
+        <div class="right-block">
+            <nav class="nav-bar">
+                <a href="#">HOME</a>
+                <a href="#">SERVICIOS</a>
+                <a href="#">NOSOTROS</a>
+                <a href="#">CONTACTO</a>
+            </nav>
+            <div class="login-buttons">
+                <button>LOG IN</button>
+                <button>SIGN IN</button>
             </div>
-            <div class="app-image">
-                <img src="images/codigo.jpg" alt="Código QR" class="large-image">
-            </div>
-            <div class="app-image">
-                <img src="images/automatizacion.jpg" alt="Imagen de Automatización" class="large-image">
-            </div>
+            <img src="images/logo2.png" alt="Central Logo" class="central-logo">
         </div>
     </div>
-</section>
+    
+    <!-- Sección Nosotros -->
+    <div class="about-section">
+        <h3>NOSOTROS</h3>
+        <div class="about-content">
+            <p>En SmartProd AI, estamos comprometidos con la transformación digital de la gestión de inventarios. Nuestra misión es proporcionar soluciones innovadoras basadas en inteligencia artificial que permitan a las empresas de cualquier tamaño optimizar sus operaciones, reducir costos y mejorar la toma de decisiones en tiempo real. Creemos en el poder de la automatización para liberar tiempo y recursos, permitiendo que nuestros clientes se enfoquen en lo que más importa: el crecimiento de su negocio.</p>
+            <p>Nuestra visión es liderar la evolución hacia una gestión de inventarios más inteligente, donde la tecnología se convierta en un aliado estratégico para maximizar el potencial de tu negocio. Únete a la revolución digital y experimenta cómo la inteligencia artificial puede transformar tu cadena de suministro y operaciones diarias.</p>
+        </div>
+    </div>
+        <!-- Sección "Nuestra App" -->
+        <div class="app-section">
+            <h3>NUESTRA APP</h3>
+            <div class="app-content">
+                <!-- Descripción -->
+                <div class="description">
+                    <h4>DESCRIPCIÓN</h4>
+                    <p>SmartProd AI es una plataforma avanzada de gestión de inventarios impulsada por inteligencia artificial, diseñada para optimizar y automatizar los procesos clave de inventario en pequeñas y medianas empresas. Con herramientas intuitivas para el monitoreo en tiempo real, reabastecimiento automático y análisis predictivo, SmartProd AI ayuda a reducir errores, mejorar la eficiencia y tomar decisiones estratégicas basadas en datos. Ideal para emprendedores y gerentes que buscan soluciones innovadoras para mejorar la competitividad de sus negocios.</p>
+                </div>
+                <!-- Código QR -->
+                <div class="qr-container">
+                    <h4>QR</h4>
+                    <img src="images/codigo.jpg" alt="Código QR" class="qr-image">
+                </div>
+                <!-- Imagen de Automatización -->
+                <div class="automation-image">
+                    <h4>Imagen Automatización</h4>
+                    <img src="images/automatizacion.jpg" alt="Automatización" class="automation-img">
+                </div>
+            </div>
+        </div>
+<!-- Sección "Contáctanos" -->
+<div class="contact-section">
+    <h3>CONTACTANOS</h3>
+    <form id="contactForm" onsubmit="enviarFormulario(event)">
+        <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
 
-        <section class="contact">
-            <h3>CONTACTANOS</h3>
-            <form>
-                <input type="text" placeholder="NOMBRE COMPLETO">
-                <input type="email" placeholder="CORREO">
-                <textarea placeholder="MENSAJE"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+<script src="script.js"></script>
 
+<!-- Pie de página -->
     <footer class="footer">
         <div class="footer-section">
             <h4>Empresas Afiliadas</h4>
-            <ul>
-                <li>Amazon Web Services</li>
-                <li>Shopify</li>
-                <li>DHL</li>
-                <li>Microsoft</li>
-            </ul>
+                <ul>
+                    <li><a href="https://aws.amazon.com" target="_blank">Amazon Web Services</a></li>
+                    <li><a href="https://www.shopify.com" target="_blank">Shopify</a></li>
+                    <li><a href="https://www.dhl.com" target="_blank">DHL</a></li>
+                    <li><a href="https://www.microsoft.com" target="_blank">Microsoft</a></li>
+                </ul>
         </div>
         <div class="footer-section">
             <h4>Comunidad</h4>
@@ -109,6 +129,12 @@
         <div class="footer-section">
             <h4>Idioma</h4>
             <p>Español</p>
+            <div class="social-icons">
+                <img src="images/87390-removebg-preview.png" alt="Instagram">
+                <img src="images/png-transparent-computer-icons-facebook-logo-black-and-white-icon-rectangle-brand-logos-thumbnail-removebg-preview.png" alt="Facebook">
+                <img src="images/png-transparent-linkedin-computer-icons-blog-logo-watercolor-butterfly-angle-text-rectangle-removebg-preview.png" alt="LinkedIn">
+                <img src="images/png-transparent-youtube-computer-icons-youtube-angle-rectangle-black-thumbnail-removebg-preview.png" alt="YouTube">
+            </div>
         </div>
     </footer>
 </body>
